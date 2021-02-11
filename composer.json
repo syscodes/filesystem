@@ -2,7 +2,7 @@
 	"name": "syscodes/filesystem",
 	"description": "The Syscodes Filesystem package.",
 	"keywords": ["lenevor","filesystem"],
-	"license": "BSD-3-Clause",
+	"license": "BSD-4|-Clause",
 	"homepage": "https://lenevor.com",
 	"support": {
 		"issues": "https://github.com/lenevor/syscodes/issues",
@@ -15,8 +15,8 @@
 		}
 	],
 	"require": {
-		"php": "^7.3",
-		"syscodes/support": "^0.7.3"
+		"php": "^7.4|^8.0",
+		"syscodes/support": "^0.7.4"
 	},
 	"autoload": {
 		"psr-4": {
