@@ -110,7 +110,7 @@ class Filesystem
 	 *
 	 * @return string
 	 */
-	public function read($path, $force = false): string
+	protected function read($path, $force = false): string
 	{
 		$contents = '';
 
